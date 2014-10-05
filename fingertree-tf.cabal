@@ -25,7 +25,7 @@ description:
 license:             BSD3
 license-file:        LICENSE
 author:              Ross Paterson, Ralf Hinze, Paweł Nowak
-maintainer:          pawel834@gmail.com
+maintainer:          Paweł Nowak <pawel834@gmail.com>
 copyright:           (c) 2014 Ross Paterson, Ralf Hinze, Paweł Nowak
 category:            Data, Data Structures
 build-type:          Simple
