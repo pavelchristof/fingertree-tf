@@ -19,7 +19,7 @@ description:
   this structure.
   .                   
   Examples are not available in this package. However I am
-  working on an "fingertree-extensible" package which will use
+  working on an @fingertree-extensible@ package which will use
   an idea based on types a la carte to provide composable annotations 
   and that package will include examples :D
 license:             BSD3
