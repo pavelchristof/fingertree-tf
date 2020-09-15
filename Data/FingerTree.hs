@@ -79,10 +79,13 @@ instance Functor s => Functor (ViewR s) where
     fmap _ EmptyR    = EmptyR
     fmap f (xs :> x) = fmap f xs :> f x
 
+instance Measured a => Semigroup (FingerTree a) where
+    (<>) = (><)
+
 -- | 'empty' and '><'.
 instance Measured a => Monoid (FingerTree a) where
     mempty = empty
-    mappend = (><)
+    mappend = (<>)
 
 -- Explicit Digit type (Exercise 1)
 
